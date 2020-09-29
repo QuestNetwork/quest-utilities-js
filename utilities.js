@@ -11,6 +11,7 @@ export class Utilities {
 
 
   inArray(array,value) {
-    return array.indexOf(value) > -1;
+    if(typeof array['indexOf'] > -1) { return array.indexOf(value) > -1; }
+    return false;
   }
 }
