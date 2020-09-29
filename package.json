@@ -17,16 +17,12 @@
     "bv": "babel --version"
   },
   "dependencies": {
-    "@angular/common": "^10.0.10",
-    "@angular/core": "^10.0.10",
-    "@angular/platform-browser": "^10.0.10",
 
     "babel-preset-env": "^1.7.0",
     "file-saver": "^2.0.2",
     "fs": "0.0.1-security",
     "ngx-electron": "^2.2.0",
     "qrcode": "^1.4.4",
-    "rollup-plugin-babel": "^4.4.0",
     "rxjs": "6.6.3",
     "uuid": "^8.2.0"
   },
