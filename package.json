@@ -17,8 +17,6 @@
     "bv": "babel --version"
   },
   "dependencies": {
-
-    "babel-preset-env": "^1.7.0",
     "file-saver": "^2.0.2",
     "fs": "0.0.1-security",
     "ngx-electron": "^2.2.0",
