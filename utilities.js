@@ -11,7 +11,9 @@ export class Utilities {
 
 
   inArray(array,value) {
-    if(typeof array['indexOf'] > -1) { return array.indexOf(value) > -1; }
+    if(typeof array['indexOf'] != 'undefined') { 
+      return array.indexOf(value) > -1;
+    }
     return false;
   }
 }
