@@ -32,14 +32,18 @@ Removes the object in the array that matches searchObject in at least one field.
 <os>.utilities.removeFram(array,searchObject)
 ```
 
-### engine.detect()
+### engine
+
+#### detect()
 
 Returns a String containing the detected engine. Result can be `browser`, `electron` or `node`.
 ```javascript
 let engine = <os>.utilities.engine.detect();
 ```
 
-### qr.generate()
+### qr
+
+#### generate()
 
 Returns a DataUrl containing generated QR Code.
 ```javascript
