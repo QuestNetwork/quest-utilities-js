@@ -16,7 +16,7 @@ npm install @questnetwork/quest-utilities-js@0.9.4
 
 ## API
 
-#### utilities.inArray(array,value)
+#### inArray(array,value)
 
 Returns boolean true or false
 ```javascript
@@ -25,7 +25,7 @@ if(<os>.utilities.inArray(array,value)){
 }
 ```
 
-#### utilities.removeFram(array,searchObject)
+#### removeFram(array,searchObject)
 
 Removes the object in the array that matches searchObject in at least one field.
 ```javascript
@@ -34,7 +34,7 @@ Removes the object in the array that matches searchObject in at least one field.
 
 ### engine
 
-#### utilities.engine.detect()
+#### detect()
 
 Returns a String containing the detected engine. Result can be `browser`, `electron` or `node`.
 ```javascript
@@ -43,7 +43,7 @@ let engine = <os>.utilities.engine.detect();
 
 ### qr
 
-#### utilities.qr.generate()
+#### generate()
 
 Returns a DataUrl containing generated QR Code.
 ```javascript
